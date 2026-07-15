@@ -1,12 +1,22 @@
-# Aarush Sharma's Projects 🚀
-नमस्ते! मैं एक Class 11 ka  स्टूडेंट हूँ और Python, SQL, और वेब डेवलपमेंट सीख रहा हूँ।
+=======================================
+               RESUME
+=======================================
 
-## मेरे प्रोजेक्ट्स 💻
-* **Portfolio Website:** मेरी पहली प्रोफेशनल पोर्टफोलियो वेबसाइट।
-* **Math Master:** एक मज़ेदार कैलकुलेशन गेम।
+👤  Aarush Sharma
 
-## स्किल्स 🛠️
-- Python
-- SQL
-- HTML & CSS
+🏫 School: [Sanjay Mannu Vadera 
+           Saraswati Vidhya Mandir, 
+           Moradabad]
 
+🎓 Status: [Pursuing Class 11th]
+
+🎖️ Class 10th: [85.3%]
+
+🎓 Stream: [PCM]
+
+💻 Skills: [Basic Web Development]
+
+🏏 Hobby: [Playing Cricket]
+
+🎀 Cricket Ideal: [Virat Kohli]
+======================================
