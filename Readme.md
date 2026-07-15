@@ -1,8 +1,7 @@
-=======================================
-               RESUME
+### 📋 RESUME
 =======================================
 
-👤  Aarush Sharma
+# 👤 AARUSH SHARMA
 
 🏫 School: [Sanjay Mannu Vadera 
            Saraswati Vidhya Mandir, 
@@ -19,4 +18,5 @@
 🏏 Hobby: [Playing Cricket]
 
 🎀 Cricket Ideal: [Virat Kohli]
-======================================
+=======================================
+
