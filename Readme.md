@@ -1,6 +1,3 @@
-[🎮 मेरा क्लिकर गेम प्रोजेक्ट यहाँ देखें!](https://rajeshsharmagindora4585-ai.github.io/-Aarush-Sharma-project-/clicker-game/)
-
-
 
 [🧮 मेरा कैलकुलेटर प्रोजेक्ट यहाँ देखें!](https://rajeshsharmagindora4585-ai.github.io/-Aarush-Sharma-project-/calculator/)
 
