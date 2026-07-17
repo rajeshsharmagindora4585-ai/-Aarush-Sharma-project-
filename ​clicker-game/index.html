@@ -39,31 +39,3 @@ l<!DOCTYPE html>
     <div id="score">0</div>
     <button id="clickBtn" onclick="increment()">Click Me!</button>
     <button id="resetBtn" onclick="reset()">Reset Score</button>
-
-    <script>
-        let score = 0;
-        const scoreDisplay = document.getElementById('score');
-        const btn = document.getElementById('clickBtn');
-
-        function increment() {
-            score++;
-            scoreDisplay.innerText = score;
-            
-            // Har click par button thoda bada/chhota hoga
-            btn.style.transform = "scale(0.95)";
-            setTimeout(() => btn.style.transform = "scale(1)", 100);
-
-            // 10 ke multiply hone par color badlega
-            if (score % 10 === 0) {
-                btn.style.background = "#" + Math.floor(Math.random()*16777215).toString(16);
-            }
-        }
-
-        function reset() {
-            score = 0;
-            scoreDisplay.innerText = score;
-            btn.style.background = "#e94560";
-        }
-    </script>
-</body>
-</html>
