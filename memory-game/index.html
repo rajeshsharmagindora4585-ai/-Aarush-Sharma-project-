@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AarushSharma2959!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title"> Instagram account=AarushSharma2959</h1>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+  </body>
+</html><!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Card Game</title>
+    <style>
+        body { text-align: center; font-family: sans-serif; background-color: #f0f0f0; }
+        .game-board {
+            display: grid;
+            grid-template-columns: repeat(4, 100px);
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .card {
+            width: 100px; height: 100px;
+            background: #333; color: #333;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 40px; cursor: pointer; border-radius: 8px;
+            user-select: none;
+        }
+        .card.flipped { background: white; color: black; }
+    </style>
+</head>
+<body>
+
+    <h1>Memory Matching Game</h1>
+    <p>Card par click karke match dhundein!</p>
+    <div class="game-board" id="board"></div>
+
+    <script>
+        const board = document.getElementById('board');
+        const icons = ['🍎', '🍎', '🍌', '🍌', '🍇', '🍇', '🍓', '🍓'];
+        icons.sort(() => Math.random() - 0.5);
+
+        let flippedCards = [];
+
+        icons.forEach(icon => {
+            const card = document.createElement('div');
+            card.classList.add('card');
+            card.dataset.icon = icon;
+            card.innerText = '?';
+            
+            card.onclick = function() {
+                if (flippedCards.length < 2 && !card.classList.contains('flipped')) {
+                    card.classList.add('flipped');
+                    card.innerText = card.dataset.icon;
+                    flippedCards.push(card);
+
+                    if (flippedCards.length === 2) {
+                        setTimeout(checkMatch, 500);
+                    }
+                }
+            };
+            board.appendChild(card);
+        });
+
+        function checkMatch() {
+            if (flippedCards[0].dataset.icon !== flippedCards[1].dataset.icon) {
+                flippedCards.forEach(c => {
+                    c.classList.remove('flipped');
+                    c.innerText = '?';
+                });
+            }
+            flippedCards = [];
+        }
+    </script>
+</body>
+</html>
+￼Enter
